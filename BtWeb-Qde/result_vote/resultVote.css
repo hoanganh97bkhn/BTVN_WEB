@@ -1,0 +1,31 @@
+
+h1{
+    margin: 100px;
+    text-align: center;
+}
+nav{
+    text-align: center;
+    margin-bottom: 35px;
+    font-size: 25px;
+}
+
+div {
+    text-align: center;
+    font-size: 25px;
+}
+
+
+button{
+    margin-top:15px;
+    height: 40px;
+    width: 200px;
+    font-size: 15px;
+    background-color: #5cb85c;
+    border: #5cb85c;
+    border-radius: 6px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #76c776;
+}
