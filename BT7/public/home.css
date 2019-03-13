@@ -1,0 +1,80 @@
+
+.header{
+    background-color:black  ;
+    padding:15px ;
+    font-weight: bold;
+    color: white
+}
+
+.header a{
+    font-size: 15px;
+    padding: 15px 20px;
+    color:white;
+    text-decoration: none;
+}
+.header a:hover{
+    background-color: rgb(65, 61, 61);
+}
+
+#question{
+    text-align: center;
+    margin: 80px;
+}
+
+.vote{
+    text-align: center;
+}
+
+.vote button{
+    border:1px solid transparent;
+    padding: 15px 50px;
+    margin: 0px 150px;
+    border-radius: 4px;
+    font-weight: bold;
+    color:white
+}
+
+.vote #true{
+    background-color: blue;
+}
+
+.vote #false{
+    background-color: red;
+}
+
+.other{
+    text-align: center;
+    margin: 50px 20px;
+}
+
+.other button{
+    padding: 7px;
+    border:1px solid #ccc;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.vote #true:hover{
+    color: #fff;
+    background-color: #286090;
+    border-color: #204d74;
+    cursor: pointer;
+}
+
+.vote #false:hover{
+    color: #fff;
+    background-color: rgb(180, 57, 57);
+    border-color: rgb(199, 90, 90);
+    cursor: pointer;
+}
+.other button:hover{
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #adadad;
+    cursor: pointer
+}
+.result{
+    margin-top: 20px; 
+    text-align: center;
+    font-weight: bold;
+}

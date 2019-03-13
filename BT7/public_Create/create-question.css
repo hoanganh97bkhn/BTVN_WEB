@@ -1,0 +1,14 @@
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box
+}
+.input{
+    width: 100%;
+    border: 10px,solid,black;
+    
+}
+
+form {
+    padding: 50px 100px;
+}
