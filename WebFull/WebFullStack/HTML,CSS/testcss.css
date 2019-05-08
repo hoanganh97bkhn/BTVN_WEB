@@ -1,0 +1,52 @@
+body{
+    text-align: center;
+    width: 500px;
+    font-family: 'Taprom', cursive;
+}
+
+/* class*/
+
+.hello{
+
+    text-align: center;
+    color: red;
+    font-size: 80px;
+    display: none;
+}
+
+.hi{
+    text-align: center;
+    font-size: 70px;
+    color: blue;
+}
+
+/* id */
+#top{
+    color: green;
+    font-weight: 200;
+}
+/*and selector*/
+.hi,#top{
+    font-size: 50px;
+}
+
+/*qhe cha con*/
+ol li{
+    color: red
+}
+
+ol>li{
+    color: blue
+}
+
+/*seudo-class*/
+p:link{
+    color: #e4817a;
+}
+
+/* padding trong
+   margin ngoai ngoai
+   */
+#abc{
+    display: block;
+}
